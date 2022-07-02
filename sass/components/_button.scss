@@ -1,0 +1,19 @@
+.add-to-cart {
+  background-color: $color-primary-dark;
+  border: none;
+  border-radius: 0.6rem;
+  color: $color-white;
+  padding: 1.5rem 4rem;
+  font-size: 1.2rem;
+  font-family: $font-primary;
+  letter-spacing: 0.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $color-secondary-dark;
+  }
+}
